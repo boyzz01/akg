@@ -21,6 +21,9 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+
+define('WP_HOME', 'http://testapp.host/akg');
+define('WP_SITEURL', 'http://testapp.host/akg');
 define('DB_NAME', 'u559870473_W84tq');
 
 /** Database username */
