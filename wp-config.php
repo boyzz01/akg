@@ -21,13 +21,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', "u559870473_W84tq");
+define('DB_NAME', "wordpress_db");
 
 /** Database username */
-define('DB_USER', "u559870473_yK6PM");
+define('DB_USER', "wp_user");
 
 /** Database password */
-define('DB_PASSWORD', "Akg@admin7");
+define('DB_PASSWORD', "akg@entertainment");
 
 /** Database hostname */
 define('DB_HOST', "localhost");
@@ -86,7 +86,7 @@ define( 'WP_DEBUG', false );
 
 
 
-define( 'WP_SITEURL', 'https://testapp.host/akg/' );
+define( 'WP_SITEURL', 'http://34.101.200.170/' );
 define( 'FS_METHOD', 'direct' );
 /* That's all, stop editing! Happy publishing. */
 
