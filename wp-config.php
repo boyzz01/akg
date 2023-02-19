@@ -21,19 +21,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-
-define('WP_HOME', 'http://testapp.host/akg');
-define('WP_SITEURL', 'http://testapp.host/akg');
-define('DB_NAME', 'u559870473_W84tq');
+define('DB_NAME', "u559870473_W84tq");
 
 /** Database username */
-define('DB_USER', 'u559870473_yK6PM');
+define('DB_USER', "u559870473_yK6PM");
 
 /** Database password */
-define('DB_PASSWORD', 'Akg@admin7');
+define('DB_PASSWORD', "Akg@admin7");
 
 /** Database hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', "localhost");
 
 /** Database charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -83,17 +80,19 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define('WP_DEBUG', false);
+define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
 
 
+define( 'WP_SITEURL', 'https://testapp.host/akg/' );
+define( 'FS_METHOD', 'direct' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
 if (!defined('ABSPATH')) {
-	define('ABSPATH', __DIR__ . '/');
+	define('ABSPATH', dirname(__FILE__) . '/');
 }
 
 /** Sets up WordPress vars and included files. */
